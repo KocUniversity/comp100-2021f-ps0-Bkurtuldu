@@ -1,6 +1,8 @@
 x = int(input('enter a number x:'))
 y = int(input('enter a number y:'))
-print(x**y)
+a = int(x**y)
+print('x**y =',a)
 import numpy
-print(numpy.log2(x))
+b = int(numpy.log2(x))
+print('log(x) =',b)
 print('ID number = 0076351')
